@@ -76,12 +76,6 @@ public class EntitySoldier extends EntityCreature
 	}
 
 	@Override
-	protected boolean isAIEnabled()
-	{
-		return true;
-	}
-
-	@Override
 	public IEntityLivingData onSpawnWithEgg(IEntityLivingData stuff)
 	{
 		setColor(SoldierColors.random());
